@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root_view"
+    android:background="#00a3af"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Project Details"
+        android:textColor="#000000"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:background="#a5f4e2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/projecttitle"
+        android:layout_marginTop="8dp"
+        android:background="#a5f4e2"
+        android:textColor="#000000"
+        android:hint="Project Title ( eg : Login App Project )"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/description"
+        android:layout_marginTop="8dp"
+        android:background="#a5f4e2"
+        android:textColor="#000000"
+        android:hint="Description ( About The Project )"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/role"
+        android:layout_marginTop="8dp"
+        android:background="#a5f4e2"
+        android:textColor="#000"
+        android:hint="Role ( eg : Project Manager )"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/size"
+        android:layout_marginTop="8dp"
+        android:background="#a5f4e2"
+        android:textColor="#000"
+        android:hint="Team Size ( eg : 5 )"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/expertise"
+        android:layout_marginTop="8dp"
+        android:background="#a5f4e2"
+        android:textColor="#000"
+        android:hint="Expertise ( eg : Developer )"
+        android:textColorHint="#000" />
+
+    <Button
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:id="@+id/projectinfodone"
+        android:layout_marginTop="60dp"
+        android:background="#a5f4e2"
+        android:text="next"
+        android:layout_marginLeft="90dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="45dp"/>
+
+    </LinearLayout>

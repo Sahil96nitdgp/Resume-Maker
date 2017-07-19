@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.training.sahil.resumemaker.BuildActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root_view"
+    android:background="#cd9b1d"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Academic Details."
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:background="#fff593"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="School Till 10th Standard"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="30dp"
+        android:background="#fff593"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/degree10"
+        android:layout_marginTop="8dp"
+        android:background="#fff593"
+        android:hint="Degree/Certificate (eg : CBSE/CISCE)"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.11" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name10"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000000"
+        android:background="#fff593"
+        android:hint="School Name (eg : St. James School) \n"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.12" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/marks10"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:layout_marginRight="20dp"
+        android:background="#fff593"
+        android:hint="Percentage/CGPA (eg : 90% or 9.5)"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.11" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/year10"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="20dp"
+        android:background="#fff593"
+        android:textColor="#000000"
+        android:hint="Passing Year (eg : 2013)"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.11" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="School Till 12th Standard"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="30dp"
+        android:background="#fff593"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/degree12"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:layout_marginRight="20dp"
+        android:background="#fff593"
+        android:hint="Degree/Certificate (eg : CBSE/CISCE)"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.11" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:id="@+id/name12"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp"
+        android:background="#fff593"
+        android:hint="School Name (eg : St. James School) \n"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.09" />
+
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/marks12"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:background="#fff593"
+        android:hint="Percentage/CGPA (eg : 90% or 9.5)"
+        android:textColorHint="#000000"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.11" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/year12"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp"
+        android:background="#fff593"
+        android:hint="Passing Year (eg : 2015)"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.11" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="College/University"
+        android:textAlignment="center"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="30dp"
+        android:background="#fff593"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/degreecollege"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:layout_marginRight="20dp"
+        android:background="#fff593"
+        android:hint="Degree ( eg : B.TECH/B.Sc)"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.11" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/deptcollege"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="20dp"
+        android:background="#fff593"
+        android:hint="Department ( eg : ME/CSE)"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.11" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginRight="20dp"
+        android:id="@+id/namecollege"
+        android:layout_marginTop="8dp"
+        android:background="#fff593"
+        android:hint="Name Of Institution\n(eg : NIT Durgapur ) "
+        android:textColorHint="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.09" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/markscollege"
+        android:layout_marginTop="8dp"
+        android:background="#fff593"
+        android:textColor="#000000"
+        android:hint="CGPA (eg : 9.5 )"
+        android:textColorHint="#000000"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.11" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/yearcollege"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:background="#fff593"
+        android:hint="Passing Year (eg : 2015 )"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.11" />
+
+
+    <Button
+        android:layout_width="255dp"
+        android:layout_height="80dp"
+        android:id="@+id/acadinfodone"
+        android:layout_marginTop="60dp"
+        android:background="#fff593"
+        android:text="next"
+        android:layout_marginLeft="45dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="45dp"/>
+
+
+
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>

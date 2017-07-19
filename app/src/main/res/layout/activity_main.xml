@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root_view"
+    android:background="#d8a373"
+    android:padding="10dp">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:background="#9c0303"
+        android:text="Welcome To Resume Maker App"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Go\nLets Start Building Your Resume"
+        android:textSize="23dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:background="#9c0303"
+        android:layout_marginTop="15dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/build"
+        android:layout_marginTop="10dp"
+        android:background="#202794"
+        android:text="build Resume"
+        android:textStyle="bold"
+        android:textSize="45dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#9c0303"
+        android:text="Click below to view saved Resume"
+        android:textAlignment="center"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="10dp"
+        android:background="#202794"
+        android:text="view Resume"
+        android:textStyle="bold"
+        android:textSize="45dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#9c0303"
+        android:text="Click below to Delete saved Resume"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/del"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="10dp"
+        android:background="#202794"
+        android:text="delete"
+        android:textStyle="bold"
+        android:textSize="45dp"/>
+
+
+
+
+
+</LinearLayout>
+
+
+

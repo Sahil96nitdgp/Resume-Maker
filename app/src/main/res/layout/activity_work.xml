@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root_view"
+    android:background="#f9d8fb"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Past Work Experience"
+        android:textColor="#fff"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:background="#320f3c"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/org"
+        android:layout_marginTop="8dp"
+        android:background="#320f3c"
+        android:textColor="#fff"
+        android:hint="Organization ( eg : Microsoft Corporation )"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/position"
+        android:layout_marginTop="8dp"
+        android:background="#320f3c"
+        android:textColor="#fff"
+        android:hint="Position ( eg : Software Developer )"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/duration"
+        android:layout_marginTop="8dp"
+        android:background="#320f3c"
+        android:textColor="#fff"
+        android:hint="Duration ( eg : 13/11/2013 - 20/04/2017 )"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/location"
+        android:layout_marginTop="8dp"
+        android:background="#320f3c"
+        android:textColor="#fff"
+        android:hint="Location ( eg : Hyderabad )"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/salary"
+        android:layout_marginTop="8dp"
+        android:background="#320f3c"
+        android:textColor="#fff"
+        android:hint="Salary per month ( eg : 65000 )"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/respo"
+        android:layout_marginTop="8dp"
+        android:background="#320f3c"
+        android:textColor="#fff"
+        android:hint="Job Responsibility ( eg : Project Manager )"
+        android:textColorHint="#fff" />
+
+
+
+
+    <Button
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:id="@+id/workinfodone"
+        android:layout_marginTop="35dp"
+        android:background="#320f3c"
+        android:text="next"
+        android:layout_marginLeft="90dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="45dp"/>
+
+</LinearLayout>

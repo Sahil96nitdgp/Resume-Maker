@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root_view"
+    android:background="#2e5a67"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add All Your Achievements"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:background="#fffbf0"/>
+
+
+    <EditText
+        android:id="@+id/achievement"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:background="#fffbf0"
+        android:hint="Describe Achievements"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/objective"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:background="#fffbf0"
+        android:hint="Describe Objective"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/curriculum"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:background="#fffbf0"
+        android:hint="Describe Curriculum"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:id="@+id/achievementinfodone"
+        android:layout_marginTop="30dp"
+        android:background="#fffbf0"
+        android:text="Done"
+        android:layout_marginLeft="90dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="45dp"/>
+
+
+</LinearLayout>
+

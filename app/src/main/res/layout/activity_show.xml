@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.training.sahil.resumemaker.BuildActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/root_view"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This Is Your Resume"
+            android:textColor="#fff"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Personal Details : "
+            android:padding="8dp"
+            android:background="#000"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/contactinfo"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Academic Details : "
+            android:background="#000"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/academicinfo"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Work Experience : "
+            android:padding="8dp"
+            android:background="#000"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/workinfo"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Project Details : "
+            android:background="#000"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/projectinfo"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="10dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skills And Interests : "
+            android:background="#000"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/skillinfo"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Achievements : "
+            android:background="#000"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/achievementinfo"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.v4.widget.NestedScrollView>
